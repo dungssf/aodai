@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áo Dài - Nét Đẹp Con Người Việt</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            background-color: #f0dcdc;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #e44d26;
+            border-bottom: 2px solid #e44d26;
+            padding-bottom: 5px;
+        }
+
+        .section p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        .image-item {
+            margin-bottom: 20px;
+            text-align: center;
+            width: calc(33.333% - 20px);
+            margin-right: 20px;
+        }
+
+        .image-item img {
+            max-width: 80%;
+            /* Reduced Image Size */
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .image-item a {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Style for the voting section */
+        .voting-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .voting-section h3 {
+            color: #e44d26;
+            margin-bottom: 10px;
+        }
+
+        .voting-options {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .voting-options label {
+            margin-bottom: 5px;
+        }
+
+        .voting-options input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .voting-section button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>ÁO DÀI - NÉT ĐẸP CON NGƯỜI VIỆT</h1>
+
+    <div class="section">
+        <h2>Giới thiệu chung</h2>
+        <p>Hình ảnh người phụ nữ Việt Nam thướt tha, đằm thắm, hiền dịu trong tà áo dài Việt Nam luôn là hình ảnh để lại
+            ấn tượng, nét đậm văn hóa rất riêng đối với bạn bè quốc tế. Chính vì thế, chiếc áo dài trở thành thứ trang phục
+            đẹp đẽ, là trang phục truyền thống của Việt Nam ta.</p>
+<img src="md.jpg" alt="Evolution of Ao dai" style="width: 50%; margin: 10px auto; display: block;">
+    </div>
+
+    <div class="section">
+        <h2>Áo dài qua từng thời kì</h2>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="dl.jpg" alt="Áo Giao Lĩnh">
+                <p>Áo Giao Lĩnh</p>
+                <a href="dl.html">Xem chi tiết</a>
+            </div>
+            <div class="image-item">
+                <img src="tt.jpg" alt="Áo Tứ Thân">
+                <p>Áo Tứ Thân</p>
+                <a href="tt.html">Xem chi tiết</a>
+            </div>
+            <div class="image-item">
+                <img src="nt.jpg" alt="Áo dài ngũ thân">
+                <p>Áo dài ngũ thân</p>
+                <a href="nt.html">Xem chi tiết</a>
+            </div>
+            <div class="image-item">
+                <img src="att.jpg" alt="Áo dài truyền thống">
+                <p>Áo dài truyền thống</p>
+                <a href="att.html">Xem chi tiết</a>
+            </div>
+            <div class="image-item">
+                <img src="ct.jpg" alt="Áo dài cách tân">
+                <p>Áo dài cách tân</p>
+                <a href="ct.html">Xem chi tiết</a>
+            </div>
+        </div>
+        <p>Có thể nói, dù đã trải qua biết bao giai đoạn, bao thăng trầm của chiều dài lịch sử, chiếc áo dài không những là
+            chưa bao giờ mất đi vị trí độc tôn trong lòng người Việt mà nó ngày càng mang lại sự hào vì nó không chỉ là
+            trang phục mà nó còn là tác phẩm nghệ thuật.</p>
+    </div>
+
+    <div class="voting-section">
+        <h3>Bầu chọn áo dài đẹp nhất</h3>
+        <p>Hãy chọn loại áo dài mà bạn yêu thích nhất:</p>
+        <form id="voting-form">
+            <div class="voting-options">
+                <label>
+                    <input type="radio" name="vote" value="ao-giao-linh"> Áo Giao Lĩnh
+                </label>
+                <label>
+                    <input type="radio" name="vote" value="ao-tu-than"> Áo Tứ Thân
+                </label>
+                <label>
+                    <input type="radio" name="vote" value="ao-dai-ngu-than"> Áo dài ngũ thân
+                </label>
+                <label>
+                    <input type="radio" name="vote" value="ao-dai-truyen-thong"> Áo dài truyền thống
+                </label>
+                <label>
+                    <input type="radio" name="vote" value="ao-dai-cach-tan"> Áo dài cách tân
+                </label>
+            </div>
+            <button type="submit">Bình chọn</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
